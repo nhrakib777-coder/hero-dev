@@ -31,6 +31,19 @@
   border-radius: 5px;
 }
 
+h3 {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #474747;
+}
+
 /* Main CSS */
 /* header css */
 header {
@@ -123,3 +136,45 @@ nav {
   /* margin-bottom: 0; */
 }
 /* header css end */
+
+/* about css start */
+#about {
+  background-color: #fff8f3;
+  border-radius: 10px;
+  text-align: center;
+  
+  margin-top: 130px;
+}
+
+#about .about-content{
+  max-width: 827px;
+  margin: 0 auto;
+  padding: 131px 156.5px;
+}
+
+#about .about-content p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+  /* margin-bottom: 30px; */
+}
+
+.about-info{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  /* margin: 0; */
+}
+
+.about-info .info-card p{
+  font-size: 20px;
+  line-height: 10px;
+  color: #757575;
+}
+
+.about-info .info-card h4{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 10px;
+  color: #181818;
+}
