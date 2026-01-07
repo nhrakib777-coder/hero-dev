@@ -5,6 +5,10 @@
 }
 
 /* Shared CSS */
+a,
+button {
+  cursor: pointer;
+}
 
 .open-sans {
   font-family: 'Open Sans', sans-serif;
@@ -60,9 +64,15 @@ nav {
 }
 /* logo css */
 
-.logo h1 {
-  font-size: 45px;
+.logo a  {
+  text-decoration: none;
+  
+}
+
+.logo a h1{
+font-size: 45px;
   font-weight: 900;
+  color: #181818;
 }
 
 /* Menu css */
