@@ -1,0 +1,125 @@
+*margin {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Shared CSS */
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+  font-optical-sizing: auto;
+}
+
+.container {
+  width: 71%;
+  max-width: 1363px;
+  margin: 0 auto;
+}
+
+.orange {
+  color: #fd6e0a;
+}
+
+.btn {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 36px;
+  border: none;
+  background-color: #fd6e0a;
+  border-radius: 5px;
+}
+
+/* Main CSS */
+/* header css */
+header {
+  background: url(../images/developer.png), url(../images/header_bg.png),
+    #fff8f3;
+  background-position: 38px 23px, bottom right;
+  background-repeat: no-repeat;
+}
+/* nav css */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* logo css */
+
+.logo h1 {
+  font-size: 45px;
+  font-weight: 900;
+}
+
+/* Menu css */
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  margin-right: 51px;
+}
+
+/* banner css */
+#banner {
+  /* max-width: 1363px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 47px 38px 0 230px;
+}
+
+#banner .banner-content {
+  max-width: 585px;
+  /* margin: 0 48px; */
+  padding: 0 48px;
+}
+
+#banner .banner-content h2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 5px;
+}
+
+#banner .banner-content h1 {
+  font-size: 85px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+#banner .banner-content p {
+  font-size: 18px;
+  color: #757575;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.banner-content .contact {
+  padding: 18px 36px;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  font-weight: 700;
+  font-size: 20px;
+  background: #fff8f3;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+/* banner image */
+.banner-img img {
+  max-width: 584px;
+  vertical-align: middle;
+  /* display: block; */
+  /* margin-bottom: 0; */
+}
+/* header css end */
